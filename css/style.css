@@ -7,10 +7,14 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 body {
     font-family: 'Cairo', sans-serif;
     background-color: #F8F9FA;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 /* Fade in animations */
 .fade-in {
