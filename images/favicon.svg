@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Dark Blue Background -->
+  <rect width="512" height="512" fill="#0B192C"/>
+  
+  <g fill="#D4AF37">
+    <!-- Base -->
+    <rect x="156" y="440" width="200" height="24" rx="12"/>
+    <path d="M 216 400 l -24 40 h 128 l -24 -40 z"/>
+    
+    <!-- Pillar -->
+    <rect x="236" y="100" width="40" height="300"/>
+    
+    <!-- Diamond Cap -->
+    <path d="M 256 50 L 286 90 L 256 130 L 226 90 Z"/>
+    
+    <!-- Crossbeam -->
+    <rect x="100" y="130" width="312" height="16" rx="8"/>
+    
+    <!-- Left Pan -->
+    <path d="M 70 310 C 70 360 190 360 190 310 Z"/>
+    
+    <!-- Right Pan -->
+    <path d="M 322 310 C 322 360 442 360 442 310 Z"/>
+  </g>
+
+  <!-- Strings -->
+  <g fill="none" stroke="#D4AF37" stroke-width="12" stroke-linejoin="round">
+    <path d="M 130 146 L 80 310 L 180 310 Z"/>
+    <path d="M 382 146 L 332 310 L 432 310 Z"/>
+  </g>
+</svg>
